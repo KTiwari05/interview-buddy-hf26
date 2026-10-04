@@ -1,0 +1,102 @@
+{
+  "width": 1600,
+  "height": 1000,
+  "fps": 24,
+  "duration": 60,
+  "format": "captioned still-image walkthrough",
+  "audio": "none",
+  "disclosure": "Actual app screenshots. Generation waiting time is omitted. No simulated clicks.",
+  "scenes": [
+    {
+      "start": 0,
+      "duration": 7,
+      "asset": "01-home.jpg",
+      "crop": [
+        20,
+        110,
+        710,
+        1170
+      ],
+      "title": "Know the concept. Find your words.",
+      "receipt": "Local Qwen3 4B \u00b7 React + FastAPI + Ollama"
+    },
+    {
+      "start": 7,
+      "duration": 9,
+      "asset": "02-explain.jpg",
+      "crop": [
+        610,
+        390,
+        1220,
+        1050
+      ],
+      "title": "01 / Explain",
+      "receipt": "Real browser response \u00b7 66.13 seconds"
+    },
+    {
+      "start": 16,
+      "duration": 9,
+      "asset": "03-simpler.jpg",
+      "crop": [
+        20,
+        1183,
+        710,
+        1730
+      ],
+      "title": "02 / Explain simpler",
+      "receipt": "Real browser response \u00b7 70.36 seconds"
+    },
+    {
+      "start": 25,
+      "duration": 10,
+      "asset": "04-example.jpg",
+      "crop": [
+        20,
+        1183,
+        709,
+        1823
+      ],
+      "title": "03 / Show example",
+      "receipt": "Real browser response \u00b7 about 66 seconds"
+    },
+    {
+      "start": 35,
+      "duration": 10,
+      "asset": "05-interview.jpg",
+      "crop": [
+        20,
+        1183,
+        709,
+        1704
+      ],
+      "title": "04 / Interview answer",
+      "receipt": "Real browser response \u00b7 223.08 seconds"
+    },
+    {
+      "start": 45,
+      "duration": 8,
+      "asset": "07-java-example.jpg",
+      "crop": [
+        20,
+        1183,
+        709,
+        1695
+      ],
+      "title": "05 / Java in practice",
+      "receipt": "Real browser response \u00b7 82.17 seconds"
+    },
+    {
+      "start": 53,
+      "duration": 7,
+      "asset": "05-interview.jpg",
+      "crop": [
+        20,
+        1183,
+        709,
+        1704
+      ],
+      "title": "Now make it yours.",
+      "receipt": "Local inference \u00b7 No account \u00b7 No saved conversations"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "captured_at": "2026-10-04T17:13:50.321Z",
+  "source": "rendered browser answer",
+  "question": "Show a short Java HashMap snippet counting the words \"java\", \"java\", \"spring\". No full class needed.",
+  "code": "Map<String, Integer> wordCount = new HashMap<>();\nfor (String word : Arrays.asList(\"java\", \"java\", \"spring\")) {\n    wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);\n}\n",
+  "receipt": "Show a short Java HashMap snippet counting the words \"java\", \"java\", \"spring\". No full class needed.\n\nMap<String, Integer> wordCount = new HashMap<>();\nfor (String word : Arrays.asList(\"java\", \"java\", \"spring\")) {\n    wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);\n}\n\nqwen3:4b · on this computer\n82.17s\nNow make it yours.\n\nLook away from the answer. Explain the idea in your own words, then try another mode."
+}

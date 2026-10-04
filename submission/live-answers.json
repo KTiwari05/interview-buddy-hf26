@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-04T16:33:58.960970+00:00",
+  "results": [
+    {
+      "mode": "explain",
+      "question": "What is database indexing?",
+      "answer": "Database indexing speeds up data retrieval by creating a structured reference (index) that points to data locations. Think of it like a book index: instead of scanning every page, you jump directly to relevant sections.\n\n**Database**: A structured collection of data.  \n**Index**: A data structure mapping search keys to data locations.\n\n**Takeaway**: Create indexes on columns frequently used in `WHERE`, `JOIN`, or `ORDER BY` clauses to optimize query performance.",
+      "model": "qwen3:4b",
+      "seconds": 104.83
+    },
+    {
+      "mode": "simpler",
+      "question": "What is database indexing?",
+      "answer": "Think of a library. Without an index, you'd have to scan every book shelf to find a specific title\u2014slow and frustrating. But with an index (like a catalog listing book titles by author), you quickly locate the book by checking just a few pages.  \n\nIn databases, an index is a similar \"shortcut\" that helps your app find records faster. It\u2019s not the data itself but a structured map pointing to where records live\u2014so queries run quicker without scanning everything.  \n\n*(98 words)*",
+      "model": "qwen3:4b",
+      "seconds": 61.94
+    },
+    {
+      "mode": "example",
+      "question": "What is database indexing?",
+      "answer": "Database indexing speeds up data retrieval by creating a lookup structure (e.g., a B-tree) for specific columns. Here's a practical SQL example:\n\n```sql\nCREATE INDEX idx_name ON users(name);\nSELECT * FROM users WHERE name = 'Alice';\n```\n\nThis index accelerates `WHERE` queries on `name` by avoiding full table scans. Without it, the database would scan all rows; with it, it directly locates `'Alice'` via the index. Indexes trade storage for faster reads but can slow writes. Use them strategically for frequently filtered columns.",
+      "model": "qwen3:4b",
+      "seconds": 57.46
+    },
+    {
+      "mode": "interview",
+      "question": "What is database indexing?",
+      "answer": "Database indexing is a data structure (e.g., B-tree) that accelerates data retrieval by enabling the database to locate rows efficiently without scanning the entire table.  \n\nTradeoff: Indexes speed up read operations but increase write overhead (inserts, updates, deletes) and storage usage.",
+      "model": "qwen3:4b",
+      "seconds": 84.44
+    }
+  ]
+}

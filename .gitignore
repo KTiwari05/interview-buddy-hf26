@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+node_modules/
+dist/
+.cache/
+submission/demo/render-work/
+.env
+*.log
+submission/private-*
